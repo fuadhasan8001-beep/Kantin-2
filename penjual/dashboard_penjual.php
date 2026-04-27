@@ -107,26 +107,26 @@
 </div>
 <!-- Navigation Tabs -->
 <nav class="flex-1 space-y-1" id="sidebar-nav">
-<a class="nav-item flex items-center gap-3 px-4 py-3 bg-primary/10 text-primary rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150 transition-all" data-target="dashboard" href="{{DATA:SCREEN:SCREEN_25}}">
+<a class="nav-item flex items-center gap-3 px-4 py-3 bg-primary/10 text-primary rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150 transition-all" data-target="dashboard" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span>Dashboard</span>
 </a>
-<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="kelola-menu" href="{{DATA:SCREEN:SCREEN_11}}">
+<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="kelola-menu" href="kelola_menu_penjual.php">
 <span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span>
 <span>Kelola Menu</span>
 </a>
-<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="pesanan-masuk" href="{{DATA:SCREEN:SCREEN_23}}">
+<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="pesanan-masuk" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined" data-icon="pending_actions">pending_actions</span>
 <span>Pesanan Masuk</span>
 </a>
-<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="riwayat-pesanan" href="{{DATA:SCREEN:SCREEN_19}}">
+<a class="nav-item flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" data-target="riwayat-pesanan" href="riwayat_pesanan_penjual.php">
 <span class="material-symbols-outlined" data-icon="history">history</span>
 <span>Riwayat Pesanan</span>
 </a>
 </nav>
 <!-- Footer Action -->
 <div class="mt-auto pt-4 border-t border-outline-variant/20">
-<a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error/5 rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm transition-all active:scale-[0.98]" href="{{DATA:SCREEN:SCREEN_16}}">
+<a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error/5 rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm transition-all active:scale-[0.98]" href="../halaman_login.php">
 <span class="material-symbols-outlined" data-icon="logout">logout</span>
 <span>Logout</span>
 </a>
@@ -206,21 +206,21 @@
 </div>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-<button class="group flex items-center justify-between p-5 bg-primary rounded-2xl text-on-primary font-bold transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-95" onclick="window.location.href='{{DATA:SCREEN:SCREEN_11}}'">
+<button class="group flex items-center justify-between p-5 bg-primary rounded-2xl text-on-primary font-bold transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-95" onclick="window.location.href='kelola_menu_penjual.php'">
 <div class="flex items-center gap-4">
 <span class="material-symbols-outlined p-2 bg-white/20 rounded-xl" data-icon="add_circle">add_circle</span>
 <span class="font-['Plus_Jakarta_Sans']">Tambah Menu Baru</span>
 </div>
 <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity" data-icon="arrow_forward">arrow_forward</span>
 </button>
-<button class="group flex items-center justify-between p-5 bg-tertiary-container rounded-2xl text-on-tertiary-container font-bold transition-all hover:shadow-lg hover:shadow-tertiary-container/20 active:scale-95" onclick="window.location.href='{{DATA:SCREEN:SCREEN_23}}'">
+<button class="group flex items-center justify-between p-5 bg-tertiary-container rounded-2xl text-on-tertiary-container font-bold transition-all hover:shadow-lg hover:shadow-tertiary-container/20 active:scale-95" onclick="window.location.href='pesanan_masuk_penjual.php'">
 <div class="flex items-center gap-4">
 <span class="material-symbols-outlined p-2 bg-white/20 rounded-xl" data-icon="shopping_basket">shopping_basket</span>
 <span class="font-['Plus_Jakarta_Sans']">Cek Pesanan Masuk</span>
 </div>
 <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity" data-icon="arrow_forward">arrow_forward</span>
 </button>
-<button class="group flex items-center justify-between p-5 bg-surface-container-highest rounded-2xl text-on-surface font-bold transition-all hover:bg-surface-variant active:scale-95" onclick="window.location.href='{{DATA:SCREEN:SCREEN_19}}'">
+<button class="group flex items-center justify-between p-5 bg-surface-container-highest rounded-2xl text-on-surface font-bold transition-all hover:bg-surface-variant active:scale-95" onclick="window.location.href='riwayat_pesanan_penjual.php'">
 <div class="flex items-center gap-4">
 <span class="material-symbols-outlined p-2 bg-on-surface/5 rounded-xl" data-icon="assignment">assignment</span>
 <span class="font-['Plus_Jakarta_Sans']">Lihat Riwayat</span>
@@ -235,11 +235,11 @@
 <div class="lg:col-span-3 bg-surface-container-low rounded-3xl p-8">
 <div class="flex justify-between items-center mb-8">
 <h3 class="font-bold text-lg text-on-surface">Pesanan Terbaru</h3>
-<a class="text-sm font-bold text-primary flex items-center gap-1 hover:underline" href="{{DATA:SCREEN:SCREEN_23}}">Semua Pesanan <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span></a>
+<a class="text-sm font-bold text-primary flex items-center gap-1 hover:underline" href="pesanan_masuk_penjual.php">Semua Pesanan <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span></a>
 </div>
 <div class="space-y-4">
 <!-- Order Item -->
-<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container transition-colors cursor-pointer" onclick="window.location.href='{{DATA:SCREEN:SCREEN_23}}'">
+<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container transition-colors cursor-pointer" onclick="window.location.href='pesanan_masuk_penjual.php'">
 <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">#01</div>
 <div class="flex-1">
 <h4 class="font-bold text-on-surface">Nasi Goreng Spesial + Telur</h4>
@@ -251,7 +251,7 @@
 </div>
 </div>
 <!-- Order Item -->
-<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container transition-colors cursor-pointer" onclick="window.location.href='{{DATA:SCREEN:SCREEN_23}}'">
+<div class="flex items-center gap-4 p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container transition-colors cursor-pointer" onclick="window.location.href='pesanan_masuk_penjual.php'">
 <div class="w-12 h-12 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary font-bold">#02</div>
 <div class="flex-1">
 <h4 class="font-bold text-on-surface">Ayam Geprek Sambal Matah</h4>
@@ -272,7 +272,7 @@
 <div class="relative z-10 text-on-primary-container">
 <h3 class="text-2xl font-black font-display leading-tight">Pantau Performa Kantin Anda Lebih Detail</h3>
 <p class="mt-2 text-sm text-on-primary-container/80">Analisis menu terpopuler dan jam ramai pengunjung untuk tingkatkan omzet.</p>
-<button class="mt-6 px-6 py-3 bg-white text-primary rounded-full font-bold text-sm shadow-md active:scale-95 transition-transform" onclick="window.location.href='{{DATA:SCREEN:SCREEN_19}}'">
+<button class="mt-6 px-6 py-3 bg-white text-primary rounded-full font-bold text-sm shadow-md active:scale-95 transition-transform" onclick="window.location.href='riwayat_pesanan_penjual.php'">
                             Buka Laporan
                         </button>
 </div>

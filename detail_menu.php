@@ -90,12 +90,12 @@
 <header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md shadow-sm">
 <div class="flex justify-between items-center px-6 py-4 w-full max-w-7xl mx-auto">
 <div class="flex items-center gap-4">
-<button class="material-symbols-outlined text-on-surface hover:bg-stone-100 p-2 rounded-full transition-colors active:scale-95">arrow_back</button>
+<button class="material-symbols-outlined text-on-surface hover:bg-stone-100 p-2 rounded-full transition-colors active:scale-95" onclick="window.location.href='index.php'">arrow_back</button>
 <span class="text-xl font-extrabold tracking-tighter text-orange-700 dark:text-orange-500">The Culinary Curator</span>
 </div>
 <div class="flex items-center gap-4">
 <button class="material-symbols-outlined text-orange-700 dark:text-orange-500 hover:bg-stone-100 p-2 rounded-full transition-colors active:scale-95">share</button>
-<button class="material-symbols-outlined text-orange-700 dark:text-orange-500 hover:bg-stone-100 p-2 rounded-full transition-colors active:scale-95">shopping_cart</button>
+<button class="material-symbols-outlined text-orange-700 dark:text-orange-500 hover:bg-stone-100 p-2 rounded-full transition-colors active:scale-95" onclick="window.location.href='keranjang_belanja_kantin_kita.php'">shopping_cart</button>
 </div>
 </div>
 </header>
@@ -210,11 +210,11 @@
 <div class="fixed bottom-0 left-0 w-full bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,0,0,0.06)] z-50 lg:relative lg:bg-transparent lg:shadow-none lg:mt-12">
 <div class="max-w-5xl mx-auto px-6 pb-8 pt-4 lg:px-0 lg:pb-24">
 <div class="flex gap-4 items-center">
-<button class="flex-1 flex items-center justify-center gap-2 border-2 border-[#ff5722] text-[#ff5722] font-bold py-4 rounded-full hover:bg-orange-50 transition-all active:scale-95">
+<button class="flex-1 flex items-center justify-center gap-2 border-2 border-[#ff5722] text-[#ff5722] font-bold py-4 rounded-full hover:bg-orange-50 transition-all active:scale-95" onclick="window.location.href='keranjang_belanja_kantin_kita.php'">
 <span class="material-symbols-outlined">shopping_cart</span>
                     Tambah ke Keranjang
                 </button>
-<button class="flex-1 bg-[#ff5722] text-white font-bold py-4 rounded-full shadow-lg shadow-orange-700/20 hover:opacity-90 transition-all active:scale-95">
+<button class="flex-1 bg-[#ff5722] text-white font-bold py-4 rounded-full shadow-lg shadow-orange-700/20 hover:opacity-90 transition-all active:scale-95" onclick="window.location.href='halaman_pembayaran.php'">
                     Beli Sekarang
                 </button>
 </div>

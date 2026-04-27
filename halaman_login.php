@@ -142,7 +142,7 @@
 <div class="space-y-2">
 <div class="flex justify-between items-center px-1">
 <label class="text-[11px] font-label font-bold uppercase tracking-widest text-on-surface-variant" for="password">Password</label>
-<a class="text-[11px] font-label font-bold uppercase tracking-widest text-primary hover:text-primary-container transition-colors" href="#" id="forgotPasswordLink">Forgot Password?</a>
+<a class="text-[11px] font-label font-bold uppercase tracking-widest text-primary hover:text-primary-container transition-colors" href="lupa_password.php" id="forgotPasswordLink">Forgot Password?</a>
 </div>
 <div class="relative flex items-center bg-surface-container-highest rounded-xl focus-within-accent transition-all group" id="passwordContainer">
 <span class="material-symbols-outlined absolute left-4 text-outline group-focus-within:text-primary transition-colors">lock</span>
@@ -163,7 +163,7 @@
 <!-- Register Footer -->
 <p class="mt-10 text-center text-sm font-body text-on-surface-variant">
                     Don't have an account? 
-                    <a class="text-primary font-bold hover:underline decoration-2 underline-offset-4 ml-1" href="#" id="registerLink">Register</a>
+<a class="text-primary font-bold hover:underline decoration-2 underline-offset-4 ml-1" href="halaman_daftar.php" id="registerLink">Register</a>
 </p>
 </div>
 </div>
@@ -199,12 +199,12 @@
         // Navigation links
         registerLink.addEventListener('click', (e) => {
             e.preventDefault();
-            window.location.href = '{{DATA:SCREEN:SCREEN_17}}';
+window.location.href = 'halaman_daftar.php';
         });
 
         forgotPasswordLink.addEventListener('click', (e) => {
             e.preventDefault();
-            window.location.href = '{{DATA:SCREEN:SCREEN_30}}';
+window.location.href = 'lupa_password.php';
         });
 
         // Toggle password visibility
@@ -245,9 +245,9 @@
                 // Mock Credential Logic
                 setTimeout(() => {
                     if (emailValue === 'seller@kantinkita.com') {
-                        window.location.href = '{{DATA:SCREEN:SCREEN_25}}'; // Seller Dashboard
+window.location.href = 'penjual/dashboard_penjual.php'; // Seller Dashboard
                     } else {
-                        window.location.href = '{{DATA:SCREEN:SCREEN_26}}'; // User Home
+window.location.href = 'index.php'; // User Home
                     }
                 }, 800);
             }

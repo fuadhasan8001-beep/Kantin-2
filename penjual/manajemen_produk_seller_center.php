@@ -117,23 +117,23 @@
 <!-- NavigationDrawer (Desktop Only) -->
 <aside class="hidden md:flex flex-col h-screen fixed left-0 top-0 w-72 bg-stone-50 dark:bg-stone-950 border-r border-stone-200 dark:border-stone-800 z-40 pt-24">
 <nav class="flex-1 px-4 space-y-2">
-<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="#">
+<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="dashboard_penjual.php">
 <span class="material-symbols-outlined mr-3" data-icon="dashboard">dashboard</span>
                 Dashboard
             </a>
-<a class="flex items-center bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="#">
+<a class="flex items-center bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="manajemen_produk_seller_center.php">
 <span class="material-symbols-outlined mr-3" data-icon="menu_book">menu_book</span>
                 Menu Management
             </a>
-<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="#">
+<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined mr-3" data-icon="list_alt">list_alt</span>
                 Orders
             </a>
-<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="#">
+<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="riwayat_pesanan_penjual.php">
 <span class="material-symbols-outlined mr-3" data-icon="insights">insights</span>
                 Analytics
             </a>
-<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="#">
+<a class="flex items-center text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 font-medium transition-all" href="dashboard_penjual.php">
 <span class="material-symbols-outlined mr-3" data-icon="settings">settings</span>
                 Settings
             </a>
@@ -368,19 +368,19 @@
 </div>
 <!-- BottomNavBar (Mobile Only) -->
 <nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,0,0,0.06)] z-50 rounded-t-[32px]">
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="home">home</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Home</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 rounded-2xl px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 rounded-2xl px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="manajemen_produk_seller_center.php">
 <span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Menu</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-500 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="../halaman_login.php">
 <span class="material-symbols-outlined" data-icon="person">person</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Profile</span>
 </a>

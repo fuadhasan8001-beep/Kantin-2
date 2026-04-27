@@ -95,39 +95,39 @@
 <div class="text-[10px] uppercase tracking-widest text-slate-400 mt-1">Management Portal</div>
 </div>
 <nav class="flex-1 space-y-1">
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span>Dashboard</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 group" href="admin_manajemen_user_penjual.php">
 <span class="material-symbols-outlined" data-icon="group">group</span>
 <span>Management User</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="admin_manajemen_user_penjual.php">
 <span class="material-symbols-outlined" data-icon="storefront">storefront</span>
 <span>Management Penjual</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span>
 <span>Management Menu</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
 <span>Pesanan</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined" data-icon="analytics">analytics</span>
 <span>Laporan</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined" data-icon="sell">sell</span>
 <span>Promo</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="../beri_rating_ulasan.php">
 <span class="material-symbols-outlined" data-icon="rate_review">rate_review</span>
 <span>Review</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 transition-colors hover:bg-slate-100 dark:hover:bg-slate-800/50 rounded-lg group" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined" data-icon="settings">settings</span>
 <span>Pengaturan</span>
 </a>

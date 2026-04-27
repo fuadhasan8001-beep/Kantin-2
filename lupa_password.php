@@ -93,7 +93,7 @@
 <!-- TopAppBar Shell Implementation -->
 <header class="flex items-center justify-between px-6 py-4 w-full fixed top-0 z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-sm shadow-orange-900/5">
 <div class="flex items-center gap-4">
-<button class="text-orange-700 dark:text-orange-500 hover:opacity-80 transition-opacity active:scale-95 transition-transform duration-150">
+<button class="text-orange-700 dark:text-orange-500 hover:opacity-80 transition-opacity active:scale-95 transition-transform duration-150" onclick="window.location.href='halaman_login.php'">
 <span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
 </button>
 <h1 class="text-orange-700 dark:text-orange-500 font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-lg">Kantin Kita</h1>
@@ -143,7 +143,7 @@
 <div class="flex flex-col items-center gap-4 pt-4">
 <p class="text-on-surface-variant font-body text-sm">
                     Remembered your password? 
-                    <a class="text-primary font-bold hover:underline underline-offset-4 ml-1" href="#">Sign In</a>
+<a class="text-primary font-bold hover:underline underline-offset-4 ml-1" href="halaman_login.php">Sign In</a>
 </p>
 <div class="flex items-center gap-2 text-tertiary">
 <span class="material-symbols-outlined text-lg" data-icon="support_agent">support_agent</span>

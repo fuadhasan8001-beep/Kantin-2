@@ -113,27 +113,27 @@
 </div>
 </div>
 <nav class="space-y-1">
-<a class="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg shadow-orange-500/20 font-medium text-sm transition-all active:scale-[0.98]" href="#">
+<a class="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg shadow-orange-500/20 font-medium text-sm transition-all active:scale-[0.98]" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span>Dashboard</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="kelola_menu_penjual.php">
 <span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
 <span>Inventory</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined" data-icon="monitoring">monitoring</span>
 <span>Sales Reports</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="riwayat_pesanan_penjual.php">
 <span class="material-symbols-outlined" data-icon="gavel">gavel</span>
 <span>Moderation</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="payments">payments</span>
 <span>Commission</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 dark:text-slate-400 hover:bg-slate-200/50 dark:hover:bg-slate-800/50 rounded-xl font-medium text-sm transition-transform hover:translate-x-1" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="settings">settings</span>
 <span>Settings</span>
 </a>
@@ -312,23 +312,23 @@
 </div>
 <!-- BottomNavBar (Mobile) -->
 <nav class="md:hidden fixed bottom-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-6 bg-white/70 dark:bg-slate-900/70 backdrop-blur-2xl shadow-[0_-10px_40px_rgba(0,0,0,0.05)] rounded-t-[32px]">
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="dashboard_penjual.php">
 <span class="material-symbols-outlined" data-icon="restaurant">restaurant</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Explore</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="kelola_menu_penjual.php">
 <span class="material-symbols-outlined" data-icon="chat_bubble">chat_bubble</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Chat</span>
 </a>
-<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-400 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-400 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full transition-all duration-300 active:scale-90" href="dashboard_stok_penjual.php">
 <span class="material-symbols-outlined" data-icon="analytics" style="font-variation-settings: 'FILL' 1;">analytics</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Reports</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-all duration-300 active:scale-90" href="../halaman_login.php">
 <span class="material-symbols-outlined" data-icon="person">person</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Profile</span>
 </a>

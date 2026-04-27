@@ -172,7 +172,7 @@
 <div class="mt-10 pt-8 border-t border-surface-container-high text-center">
 <p class="text-sm text-on-surface-variant font-medium">
                 Already have an account? 
-                <a class="text-primary font-bold hover:underline ml-1" href="#">Login</a>
+<a class="text-primary font-bold hover:underline ml-1" href="halaman_login.php">Login</a>
 </p>
 </div>
 <!-- Editorial Visual Element (Asymmetric Placement) -->

@@ -138,7 +138,7 @@
 <button class="active:scale-95 duration-200 transition-transform hover:bg-stone-100 dark:hover:bg-stone-800 p-2 rounded-full md:hidden" id="searchBtnMobile">
 <span class="material-symbols-outlined text-orange-700 dark:text-orange-500" data-icon="search">search</span>
 </button>
-<button class="active:scale-95 duration-200 transition-transform hover:bg-stone-100 dark:hover:bg-stone-800 p-2 rounded-full relative">
+<button class="active:scale-95 duration-200 transition-transform hover:bg-stone-100 dark:hover:bg-stone-800 p-2 rounded-full relative" onclick="window.location.href='pusat_notifikasi_pembeli.php'">
 <span class="material-symbols-outlined text-orange-700 dark:text-orange-500">notifications</span>
 <span class="absolute top-2 right-2 w-2 h-2 bg-primary rounded-full border-2 border-white"></span>
 </button>
@@ -155,10 +155,10 @@
 <section class="px-6 py-8">
 <div class="flex items-center justify-between mb-6">
 <h3 class="text-xl font-bold tracking-tight border-l-4 border-primary pl-3">Terbaru</h3>
-<a class="text-primary font-bold text-sm hover:underline" href="#">Lihat Semua</a>
+<a class="text-primary font-bold text-sm hover:underline" href="detail_menu.php">Lihat Semua</a>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer" onclick="window.location.href='detail_menu.php'">
 <div class="relative aspect-square overflow-hidden">
 <img alt="Nasi Goreng Special" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="close-up of nasi goreng with fried egg and crackers on a ceramic plate, warm lighting, appetizing textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDen-p4HNP7ZGg5kYNWuligsphnnC4FnRVZCnCSyHbUoaU2xFtZZ9vcVnjiQwdCdgYDkomIHDlodNVdIrFMbKxAQzZ7hUKYiRcmDNla3li6rD0gumfRtIS0BppN46yCpmNlLezr1axRjpniiKhMY8gq0DQy0tBAXHfS1SGnu47c9xZgLvK661Djf-T0brDZK47JiMh1gLZLxxFHr7sG1zx0xTM1Odt6rtS_BGbrF8Zcp4tTF0Zm-BRSWTXkSsKL62vvnV_APfkRkhY"/>
 <button class="absolute top-3 right-3 p-2 bg-white/90 backdrop-blur-sm rounded-full text-primary hover:bg-primary hover:text-white transition-colors shadow-sm" onclick="event.stopPropagation()">
@@ -175,7 +175,7 @@
 <p class="text-primary font-extrabold text-lg">Rp 25.000</p>
 </div>
 </div>
-<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer" onclick="window.location.href='detail_menu.php'">
 <div class="relative aspect-square overflow-hidden">
 <img alt="Salad Bowl" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="fresh mediterranean salad bowl with hummus, olives and colorful vegetables, bright daylight, high-end editorial food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl8Vnd8TBvUfeCH9gAfADb-2TYbrt9CEf00mufMAvJLTMJOdewgO-lE0Z26HOrE4OE6zAQ4GTixqsyffbzb9sYTuc5tCAfsJYYkDr-f-nMnxpUHozeDQKxhHyFtwyFunF55OwJBGqJKdVyLOuQLk7kK16wzoAOMzIA0tCTu9bc1cHuwU5NLXLs0CLQ2A3zFoDok8_eysTkdO3jsabStyEn5Qs7Hhk3jVNsW6uUzPeuUvxYOo4Y6qiG-OL0XYyTjipy-SOhuGPGECY"/>
 <button class="absolute top-3 right-3 p-2 bg-white/90 backdrop-blur-sm rounded-full text-stone-300 hover:text-primary transition-colors shadow-sm" onclick="event.stopPropagation()">
@@ -192,7 +192,7 @@
 <p class="text-primary font-extrabold text-lg">Rp 32.000</p>
 </div>
 </div>
-<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer hidden md:block" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer hidden md:block" onclick="window.location.href='detail_menu.php'">
 <div class="relative aspect-square overflow-hidden">
 <img alt="Berry Smoothie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="vibrant pink berry smoothie in a tall glass with fresh mint and berries, condensation on glass, refreshing look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBVtQWITElMKYPgHmPWJUcnDUuu9tW6dkTWiR6ybLP17DqXttGueJNQpVMjfMD4OwITDpnLKEitw82QX6xWJoAooNtVAKaGE2fb5ujvtZqVARXCsMgvFKI7LjrofmKBi3raZDoCUqY3kdSQ5GI79ZPx3Mvn2pbWpwHk9wZpYLhoI_ZiOfZWiqGm3fXS08MAxIEZBSxHUdRF-UoHIdKecNEoLqzEiHEg0TZHQC_rXpv9iMzFrNXI34ZwwGuFDuvbqqJ7K0AmmOEwhw"/>
 <button class="absolute top-3 right-3 p-2 bg-white/90 backdrop-blur-sm rounded-full text-stone-300 hover:text-primary transition-colors shadow-sm" onclick="event.stopPropagation()">
@@ -209,7 +209,7 @@
 <p class="text-primary font-extrabold text-lg">Rp 18.000</p>
 </div>
 </div>
-<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer hidden md:block" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow group cursor-pointer hidden md:block" onclick="window.location.href='detail_menu.php'">
 <div class="relative aspect-square overflow-hidden">
 <img alt="Cheeseburger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="gourmet cheeseburger on a brioche bun with melting cheese and fresh lettuce, studio lighting, professional food photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARU7g75rmIgRram-rbMS9uviKMeHhgU15Jzd8zCLDbJ3oNy-4vIiT8cy_QIFLXGDuv9jWfn5vSrkLJzer-cyT1WlYij0xRMg8wNNSgmyFo-JvUdh2HAOIEUpOT3OucsuXgW5onZlL4g4rK1Bg77UVvDa9m-Up3_azj-2dEXRS80NHqOMsS2IbahhCLFMfhuc5W1UUo6uPbVBUAuTVOlv8CErka-GHa-dxlYXqJlhOWSzkF3IaJpbXp5Z6CCvyLPKsy9HBGDt6yF_U"/>
 <button class="absolute top-3 right-3 p-2 bg-white/90 backdrop-blur-sm rounded-full text-primary hover:bg-primary hover:text-white transition-colors shadow-sm" onclick="event.stopPropagation()">
@@ -233,7 +233,7 @@
 <h3 class="text-xl font-bold tracking-tight border-l-4 border-primary pl-3">Rekomendasi Untukmu</h3>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<div class="food-card bg-surface-container-low rounded-3xl p-6 flex items-center gap-6 relative overflow-hidden group border border-transparent hover:border-primary-container transition-all cursor-pointer" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-low rounded-3xl p-6 flex items-center gap-6 relative overflow-hidden group border border-transparent hover:border-primary-container transition-all cursor-pointer" onclick="window.location.href='detail_menu.php'">
 <div class="w-32 h-32 flex-none rounded-2xl overflow-hidden shadow-md">
 <img alt="Pizza Slice" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="macro photo of a fresh pepperoni pizza slice with melting cheese and herbs, dramatic focus, high contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6uaO3LuWMnFLUmj8LaZ2dBhgddQ4w1MrBvE1rBcGpf7SjkHig7hBdlBOClrc9Z079fCoEymiJ3q03Qy1R5E6CU-k64PfUUl2WpAvdSFfCoAwvjSSxmRtihpWhgJwoszFdmHkwTCk3-FGH9OzSxrDYrdr-fhIdyotLEQo2_5CvsAN2xt7sy7udfaAQOvRnDPf1lQ5zItDmUnsdD6NT3oqc6uclYkxvjuWYcQYR4UzRGg5g7Xs68AUzS1ZqtkjkCI9RpAZgTwdL0Vk"/>
 </div>
@@ -249,7 +249,7 @@
 </div>
 </div>
 </div>
-<div class="food-card bg-surface-container-low rounded-3xl p-6 flex items-center gap-6 relative overflow-hidden group border border-transparent hover:border-primary-container transition-all cursor-pointer" onclick="window.location.href='index.php?page=detail_menu'">
+<div class="food-card bg-surface-container-low rounded-3xl p-6 flex items-center gap-6 relative overflow-hidden group border border-transparent hover:border-primary-container transition-all cursor-pointer" onclick="window.location.href='detail_menu.php'">
 <div class="w-32 h-32 flex-none rounded-2xl overflow-hidden shadow-md">
 <img alt="BBQ Ribs" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="tender bbq pork ribs with glossy sauce on a rustic wooden board, dark moody lighting, cinematic food photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6h4UBjWN5LOiPwfudlxPf_ngmEhESXryhVf4ebXwu_jFPZNVGW6cODArkURTIRPagSHjqF7EtXHxUwdThjUywU-XOSMU8L8PBr29otPmWQZ5eTXnaTkfT-VaXSArfd0H8RzN2aJZjt9uxZcoMo2TKhQiRbRC6_XXB4SoXZoPZVrSAVlxNoZeQAllooCDd0OLjHjJYBzW7uNosLPGwPT5bWMor5Auog7QRoOVkACe_KoN9BJlKGG0KYHu6-VxQjGgGU9mAiC8aCC0"/>
 </div>
@@ -269,27 +269,27 @@
 </section>
 </main>
 <nav class="fixed bottom-0 left-0 right-0 h-20 flex justify-around items-center px-4 pb-safe bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl z-50 rounded-t-2xl shadow-[0_-4px_24px_rgba(0,0,0,0.04)] md:hidden">
-<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-500 relative after:content-[''] after:absolute after:bottom-[-4px] after:w-1 after:h-1 after:bg-orange-700 after:rounded-full active:scale-90 duration-200 transition-all" href="#">
+<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-500 relative after:content-[''] after:absolute after:bottom-[-4px] after:w-1 after:h-1 after:bg-orange-700 after:rounded-full active:scale-90 duration-200 transition-all" href="index.php">
 <span class="material-symbols-outlined" data-icon="home" style='font-variation-settings: "FILL" 1;'>home</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] font-medium tracking-wide uppercase mt-1">Home</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="#" onclick="alert('Pesanan Saya (Orders) Placeholder')">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="invoice_pesanan.php">
 <span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] font-medium tracking-wide uppercase mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="index.php?page=keranjang">
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="keranjang_belanja_kantin_kita.php">
 <div class="relative">
 <span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
 <span class="cart-badge absolute -top-1 -right-1 w-4 h-4 bg-primary text-white text-[8px] flex items-center justify-center rounded-full font-bold">3</span>
 </div>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] font-medium tracking-wide uppercase mt-1">Cart</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="#" onclick="alert('Profil Pengguna Placeholder')">
-<span class="material-symbols-outlined" data-icon="person">person</span>
-<span class="font-['Be_Vietnam_Pro'] text-[10px] font-medium tracking-wide uppercase mt-1">Profile</span>
+<a class="flex flex-col items-center justify-center text-stone-400 dark:text-stone-600 hover:text-orange-600 transition-colors active:scale-90 duration-200" href="chat_penjual_pembeli.php">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] font-medium tracking-wide uppercase mt-1">Chat</span>
 </a>
 </nav>
-<button class="fixed bottom-24 right-6 w-14 h-14 bg-gradient-to-br from-primary to-primary-container text-white rounded-full flex items-center justify-center shadow-xl shadow-primary/20 z-40 active:scale-95 transition-transform md:bottom-10" onclick="alert('Menu Kantin Lengkap')">
+<button class="fixed bottom-24 right-6 w-14 h-14 bg-gradient-to-br from-primary to-primary-container text-white rounded-full flex items-center justify-center shadow-xl shadow-primary/20 z-40 active:scale-95 transition-transform md:bottom-10" onclick="window.location.href='detail_menu.php'">
 <span class="material-symbols-outlined">restaurant_menu</span>
 </button>
 <script>
@@ -302,22 +302,22 @@
     }
 
     // Handle Add to Cart
-    function handleAddToCart(event) {
-        event.stopPropagation();
-        showToast("Item ditambahkan ke keranjang!");
-        
-        // Mocking Cart Badge update
-        const badges = document.querySelectorAll('.cart-badge');
-        badges.forEach(badge => {
-            let count = parseInt(badge.innerText);
-            badge.innerText = count + 1;
-        });
+        function handleAddToCart(event) {
+            event.stopPropagation();
+            showToast("Item ditambahkan ke keranjang!");
+            
+            // Mocking Cart Badge update
+            const badges = document.querySelectorAll('.cart-badge');
+            badges.forEach(badge => {
+                let count = parseInt(badge.innerText);
+                badge.innerText = count + 1;
+            });
 
-        // Navigate to Pop Up Pesanan after a short delay
-        setTimeout(() => {
-            window.location.href = "{{index.php?page=popup_pesanan";
-        }, 1000);
-    }
+            // Navigate to Pop Up Pesanan after a short delay
+            setTimeout(() => {
+window.location.href = "keranjang_belanja_kantin_kita.php";
+            }, 1000);
+        }
 
     // Category Filtering Mock
     const chips = document.querySelectorAll('.category-chip');
@@ -349,7 +349,11 @@
         searchBtnMobile.addEventListener('click', () => {
             const query = prompt("Cari apa hari ini?");
             if(query) alert("Hasil pencarian untuk: " + query);
+            window.location.href = 'detail_menu.php';
         });
     }
+    // Quick action FAB for add menu
+    // (Hidden as per rule if this is a dedicated focus screen, but kept for global nav utility)
+    // ...
 </script>
 </body></html>

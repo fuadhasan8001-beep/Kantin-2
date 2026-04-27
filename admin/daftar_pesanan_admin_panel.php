@@ -115,24 +115,24 @@
 </div>
 </div>
 <nav class="flex flex-col gap-1">
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined">dashboard</span>
                 Dashboard
             </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined">menu_book</span>
                 Menu Management
             </a>
 <!-- Active State: Orders -->
-<a class="bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm" href="#">
+<a class="bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">list_alt</span>
                 Orders
             </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined">insights</span>
                 Analytics
             </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-medium text-sm transition-all" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">settings</span>
                 Settings
             </a>
@@ -303,19 +303,19 @@
 </main>
 <!-- BottomNavBar - Mobile Only -->
 <nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,0,0,0.06)] z-50 rounded-t-[32px]">
-<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined">home</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Home</span>
 </a>
-<a class="flex flex-col items-center justify-center bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 rounded-2xl px-5 py-2 active:scale-90 transition-transform" href="#">
+<a class="flex flex-col items-center justify-center bg-orange-50 dark:bg-orange-950/30 text-orange-700 dark:text-orange-400 rounded-2xl px-5 py-2 active:scale-90 transition-transform" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined">shopping_cart</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Cart</span>
 </a>
-<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="#">
+<a class="flex flex-col items-center justify-center text-stone-400 px-5 py-2 hover:text-orange-600 transition-all active:scale-90" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined">person</span>
 <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-semibold uppercase tracking-widest mt-1">Profile</span>
 </a>

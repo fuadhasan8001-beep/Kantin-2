@@ -97,7 +97,7 @@
 <!-- TopAppBar Fragment (Contextualized for Chat) -->
 <header class="fixed top-0 w-full flex justify-between items-center px-4 h-20 bg-white/80 backdrop-blur-xl z-50 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
 <div class="flex items-center gap-4">
-<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-low transition-colors active:scale-95">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-low transition-colors active:scale-95" onclick="window.location.href='index.php'">
 <span class="material-symbols-outlined text-on-surface-variant">arrow_back</span>
 </button>
 <div class="flex items-center gap-3">

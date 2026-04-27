@@ -88,7 +88,7 @@
 <body class="bg-background text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
 <aside class="h-screen w-64 fixed left-0 top-0 flex flex-col bg-slate-50 dark:bg-slate-900 font-['Plus_Jakarta_Sans'] text-sm tracking-tight z-50">
 <div class="flex flex-col h-full py-6 px-4">
-<div class="flex items-center gap-3 mb-10 px-2 cursor-pointer" onclick="location.href='{{DATA:SCREEN:SCREEN_22}}'">
+<div class="flex items-center gap-3 mb-10 px-2 cursor-pointer" onclick="location.href='admin_dashboard_overview.php'">
 <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary-container flex items-center justify-center text-on-primary">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">restaurant</span>
 </div>
@@ -98,43 +98,43 @@
 </div>
 </div>
 <nav class="flex-1 space-y-1">
-<a class="flex items-center gap-3 px-4 py-3 text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_22}}">
+<a class="flex items-center gap-3 px-4 py-3 text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 transition-all duration-200" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined">dashboard</span>
                 Dashboard
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_15}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined">group</span>
                 Management User
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_15}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="admin_manajemen_user_penjual.php">
 <span class="material-symbols-outlined">storefront</span>
                 Management Penjual
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_14}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined">restaurant_menu</span>
                 Management Menu
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_14}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined">shopping_cart</span>
                 Pesanan
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_6}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined">analytics</span>
                 Laporan
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_6}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">sell</span>
                 Promo
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined">rate_review</span>
                 Review
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="{{DATA:SCREEN:SCREEN_6}}">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:text-sky-500 hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-all duration-200" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">settings</span>
                 Pengaturan
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 transition-all duration-200 mt-4 border-t border-slate-200 pt-4" href="{{DATA:SCREEN:SCREEN_16}}">
+<a class="flex items-center gap-3 px-4 py-3 text-error hover:bg-error-container/20 transition-all duration-200 mt-4 border-t border-slate-200 pt-4" href="../halaman_login.php">
 <span class="material-symbols-outlined">logout</span>
                 Keluar
             </a>
@@ -156,11 +156,11 @@
 <div class="hidden absolute top-full left-0 mt-2 w-full bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700 py-3 z-[60]" id="searchDropdown">
 <div class="px-4 py-2 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer text-xs font-semibold text-slate-500">Hasil pencarian cepat...</div>
 <div class="h-px bg-slate-100 dark:bg-slate-700 mx-4"></div>
-<a class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 dark:hover:bg-slate-700" href="{{DATA:SCREEN:SCREEN_14}}">
+<a class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 dark:hover:bg-slate-700" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined text-primary text-lg">restaurant_menu</span>
 <span>Menu: Salmon Poke Bowl</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 dark:hover:bg-slate-700" href="{{DATA:SCREEN:SCREEN_15}}">
+<a class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 dark:hover:bg-slate-700" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined text-tertiary text-lg">person</span>
 <span>User: Ahmad Subarjo</span>
 </a>
@@ -423,7 +423,7 @@
 </div>
 </section>
 </main>
-<button class="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-primary-container text-on-primary-container shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50" onclick="location.href='{{DATA:SCREEN:SCREEN_14}}'">
+<button class="fixed bottom-8 right-8 w-16 h-16 rounded-full bg-primary-container text-on-primary-container shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50" onclick="location.href='admin_manajemen_menu_pesanan.php'">
 <span class="material-symbols-outlined text-3xl">add</span>
 </button>
 <script>

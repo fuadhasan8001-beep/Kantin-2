@@ -96,7 +96,7 @@
 <!-- Top Navigation (Shell Implementation) -->
 <header class="fixed top-0 w-full flex justify-between items-center px-6 h-16 bg-white/80 backdrop-blur-xl z-50 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
 <div class="flex items-center gap-4">
-<button class="active:scale-95 transition-transform duration-200 text-orange-800">
+<button class="active:scale-95 transition-transform duration-200 text-orange-800" onclick="window.location.href='index.php'">
 <span class="material-symbols-outlined" data-icon="close">close</span>
 </button>
 <h1 class="text-xl font-extrabold bg-gradient-to-br from-orange-700 to-red-600 bg-clip-text text-transparent font-['Plus_Jakarta_Sans'] tracking-tight">Kantin Kita</h1>

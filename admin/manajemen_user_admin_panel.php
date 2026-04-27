@@ -111,27 +111,27 @@
 </div>
 </div>
 <nav class="space-y-1">
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined">dashboard</span>
                     Dashboard
                 </a>
-<a class="bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium" href="#">
+<a class="bg-orange-600 text-white shadow-lg shadow-orange-700/20 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">group</span>
                     User Management
                 </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined">menu_book</span>
                     Menu Management
                 </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined">list_alt</span>
                     Orders
                 </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined">insights</span>
                     Analytics
                 </a>
-<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="#">
+<a class="text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-800 rounded-lg mx-2 my-1 px-4 py-3 flex items-center gap-3 font-['Plus_Jakarta_Sans'] text-sm font-medium transition-all" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">settings</span>
                     Settings
                 </a>

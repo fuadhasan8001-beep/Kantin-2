@@ -109,7 +109,7 @@
 <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
 <div class="flex items-center justify-between px-6 py-4 w-full">
 <div class="flex items-center gap-4">
-<button class="active:scale-95 duration-200 transition-transform p-2 hover:bg-stone-100 rounded-full" onclick="window.location.href='{{DATA:SCREEN:SCREEN_27}}'">
+<button class="active:scale-95 duration-200 transition-transform p-2 hover:bg-stone-100 rounded-full" onclick="window.location.href='keranjang_belanja_kantin_kita.php'">
 <span class="material-symbols-outlined text-on-surface">arrow_back</span>
 </button>
 <h1 class="text-orange-700 font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-lg">Checkout</h1>
@@ -288,7 +288,7 @@
         function handlePayment() {
             // Using a simple alert for success and then redirecting
             alert('Pembayaran Berhasil! Pesanan Anda sedang diproses.');
-            window.location.href = '{{DATA:SCREEN:SCREEN_26}}';
+window.location.href = 'invoice_pesanan.php';
         }
     </script>
 </body></html>

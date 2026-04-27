@@ -90,7 +90,7 @@
 <header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
 <div class="flex justify-between items-center px-6 py-4 w-full max-w-7xl mx-auto">
 <div class="flex items-center gap-4">
-<button class="material-symbols-outlined text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors p-2 rounded-full active:scale-95 transition-transform duration-200">arrow_back</button>
+<button class="material-symbols-outlined text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors p-2 rounded-full active:scale-95 transition-transform duration-200" onclick="window.location.href='index.php'">arrow_back</button>
 <span class="text-xl font-extrabold tracking-tighter text-orange-700 dark:text-orange-500">The Culinary Curator</span>
 </div>
 <div class="flex items-center gap-2">
@@ -196,7 +196,7 @@
 </div>
 </div>
 <!-- Add more items CTA -->
-<button class="w-full mt-8 flex items-center justify-center gap-2 py-4 border-2 border-dashed border-outline-variant rounded-2xl text-stone-500 font-semibold hover:border-primary hover:text-primary transition-all">
+<button class="w-full mt-8 flex items-center justify-center gap-2 py-4 border-2 border-dashed border-outline-variant rounded-2xl text-stone-500 font-semibold hover:border-primary hover:text-primary transition-all" onclick="window.location.href='index.php'">
 <span class="material-symbols-outlined">add_circle</span>
             Tambah Item Lainnya
         </button>
@@ -219,7 +219,7 @@
 </div>
 </div>
 <!-- Checkout Button -->
-<button class="w-full bg-gradient-to-r from-primary to-primary-container text-white py-4 rounded-full font-bold text-lg shadow-lg shadow-primary/20 active:scale-95 transition-all flex items-center justify-center gap-3">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-white py-4 rounded-full font-bold text-lg shadow-lg shadow-primary/20 active:scale-95 transition-all flex items-center justify-center gap-3" onclick="window.location.href='halaman_pembayaran.php'">
 <span>Lanjut ke Pembayaran</span>
 <span class="material-symbols-outlined" data-weight="fill">shopping_cart_checkout</span>
 </button>

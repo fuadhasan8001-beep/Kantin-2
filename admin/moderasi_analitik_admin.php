@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 
 <html lang="en"><head>
 <meta charset="utf-8"/>
@@ -112,22 +113,22 @@
 </div>
 </div>
 <nav class="space-y-1">
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined" data-icon="dashboard">dashboard</span> Dashboard
                 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span> Inventory
                 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined" data-icon="monitoring">monitoring</span> Sales Reports
                 </a>
-<a class="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg shadow-orange-500/20 active:scale-[0.98] transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl shadow-lg shadow-orange-500/20 active:scale-[0.98] transition-all duration-200 font-medium text-sm" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined" data-icon="gavel" style="font-variation-settings: 'FILL' 1;">gavel</span> Moderation
                 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined" data-icon="payments">payments</span> Commission
                 </a>
-<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-200/50 rounded-xl hover:translate-x-1 transition-all duration-200 font-medium text-sm" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined" data-icon="settings">settings</span> Settings
                 </a>
 </nav>
@@ -308,23 +309,23 @@
 </div>
 <!-- BottomNavBar (Mobile Only) -->
 <nav class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-6 bg-white/70 dark:bg-slate-900/70 backdrop-blur-2xl lg:hidden shadow-[0_-10px_40px_rgba(0,0,0,0.05)] rounded-t-[32px]">
-<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined" data-icon="restaurant">restaurant</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Explore</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center text-orange-700 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full active:scale-90 transition-all duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-orange-700 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full active:scale-90 transition-all duration-300" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined" data-icon="analytics" style="font-variation-settings: 'FILL' 1;">analytics</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Reports</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="admin_manajemen_user_penjual.php">
 <span class="material-symbols-outlined" data-icon="chat_bubble">chat_bubble</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Chat</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-all duration-300" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined" data-icon="person">person</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Profile</span>
 </a>

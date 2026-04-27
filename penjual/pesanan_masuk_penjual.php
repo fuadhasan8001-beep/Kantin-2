@@ -94,24 +94,24 @@
 <p class="text-xs font-medium text-on-surface-variant/70 tracking-wider uppercase">Seller Center</p>
 </div>
 <nav class="flex flex-col h-full p-4 gap-2">
-<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="dashboard_penjual.php">
 <span class="material-symbols-outlined">dashboard</span>
                 Dashboard
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="kelola_menu_penjual.php">
 <span class="material-symbols-outlined">restaurant_menu</span>
                 Kelola Menu
             </a>
-<a class="flex items-center gap-3 px-4 py-3 bg-primary/10 text-primary rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" href="#">
+<a class="flex items-center gap-3 px-4 py-3 bg-primary/10 text-primary rounded-xl font-bold font-['Plus_Jakarta_Sans'] text-sm active:scale-[0.98] duration-150" href="pesanan_masuk_penjual.php">
 <span class="material-symbols-outlined">pending_actions</span>
                 Pesanan Masuk
             </a>
-<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="riwayat_pesanan_penjual.php">
 <span class="material-symbols-outlined">history</span>
                 Riwayat Pesanan
             </a>
 <div class="mt-auto pt-4 border-t border-outline-variant/10">
-<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="#">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all font-['Plus_Jakarta_Sans'] font-medium text-sm active:scale-[0.98] duration-150" href="../halaman_login.php">
 <span class="material-symbols-outlined">logout</span>
                     Logout
                 </a>

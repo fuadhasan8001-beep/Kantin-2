@@ -94,41 +94,41 @@
 </div>
 </div>
 <nav class="flex-1 space-y-1">
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="admin_dashboard_overview.php">
 <span class="material-symbols-outlined">dashboard</span>
 <span>Dashboard</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="manajemen_user_admin_panel.php">
 <span class="material-symbols-outlined">group</span>
 <span>Management User</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="admin_manajemen_user_penjual.php">
 <span class="material-symbols-outlined">storefront</span>
 <span>Management Penjual</span>
 </a>
 <!-- Active Tab: Management Menu -->
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 scale-98 active:scale-95 transition-transform" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-sky-600 dark:text-sky-400 font-semibold border-l-4 border-sky-500 bg-sky-50/50 dark:bg-sky-900/20 scale-98 active:scale-95 transition-transform" href="admin_manajemen_menu_pesanan.php">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span>
 <span>Management Menu</span>
 </a>
 <!-- Active Intent Fallback for Pesanan -->
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="daftar_pesanan_admin_panel.php">
 <span class="material-symbols-outlined">shopping_cart</span>
 <span>Pesanan</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="moderasi_analitik_admin.php">
 <span class="material-symbols-outlined">analytics</span>
 <span>Laporan</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">sell</span>
 <span>Promo</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="../beri_rating_ulasan.php">
 <span class="material-symbols-outlined">rate_review</span>
 <span>Review</span>
 </a>
-<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="#">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-500 hover:text-sky-500 transition-colors hover:bg-slate-100" href="admin_promo_pengaturan.php">
 <span class="material-symbols-outlined">settings</span>
 <span>Pengaturan</span>
 </a>

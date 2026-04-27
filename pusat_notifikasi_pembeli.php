@@ -93,7 +93,7 @@
 <body class="bg-background text-on-surface min-h-screen">
 <!-- TopAppBar -->
 <header class="fixed top-0 w-full flex justify-between items-center px-6 h-16 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl z-50 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-<button class="text-orange-800 dark:text-orange-500 hover:bg-slate-100/50 dark:hover:bg-slate-800/50 transition-colors active:scale-95 p-2 rounded-full">
+<button class="text-orange-800 dark:text-orange-500 hover:bg-slate-100/50 dark:hover:bg-slate-800/50 transition-colors active:scale-95 p-2 rounded-full" onclick="window.location.href='index.php'">
 <span class="material-symbols-outlined">menu</span>
 </button>
 <div class="font-['Plus_Jakarta_Sans'] font-bold tracking-tight text-xl font-extrabold bg-gradient-to-br from-orange-700 to-red-600 bg-clip-text text-transparent">
@@ -212,23 +212,23 @@
 </main>
 <!-- BottomNavBar (Shared Component) -->
 <nav class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-6 bg-white/70 dark:bg-slate-900/70 backdrop-blur-2xl rounded-t-[32px] shadow-[0_-10px_40px_rgba(0,0,0,0.05)] bg-slate-50/50 dark:bg-slate-800/50">
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="index.php">
 <span class="material-symbols-outlined">restaurant</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Explore</span>
 </a>
-<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-400 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full hover:opacity-100 transition-opacity active:scale-90 duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-orange-700 dark:text-orange-400 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-orange-600 after:rounded-full hover:opacity-100 transition-opacity active:scale-90 duration-300" href="invoice_pesanan.php">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">receipt_long</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Orders</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="chat_penjual_pembeli.php">
 <span class="material-symbols-outlined">chat_bubble</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Chat</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="#">
-<span class="material-symbols-outlined">analytics</span>
-<span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Reports</span>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="pusat_notifikasi_pembeli.php">
+<span class="material-symbols-outlined">notifications</span>
+<span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Notif</span>
 </a>
-<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="#">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 opacity-60 hover:opacity-100 transition-opacity active:scale-90 duration-300" href="halaman_login.php">
 <span class="material-symbols-outlined">person</span>
 <span class="font-['Be_Vietnam_Pro'] text-[10px] uppercase tracking-widest font-semibold mt-1">Profile</span>
 </a>
